@@ -23,7 +23,7 @@ resource "aws_instance" "dev_instance" {
   subnet_id     = data.aws_subnet.default_subnet.id
 
   tags = {
-    Name        = "Badhai-Ho"
-    Environment = "dev"
+    Name        = "prod"
+    Environment = "prod"
   }
 }
